@@ -24,7 +24,7 @@ namespace Servicios.Colecciones.DobleEnlazadas
 
         public bool Insertar(int prmIndice, Tipo prmItem)
         {
-            return InsertarEn(prmIndice, ref prmItem);
+            throw new NotImplementedException();
         }
 
         public bool Modificar(int prmIndice, Tipo prmItem)

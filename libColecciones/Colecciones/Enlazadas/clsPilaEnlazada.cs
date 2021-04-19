@@ -13,7 +13,7 @@ namespace Servicios.Colecciones.Enlazadas
         #region CRUDS
         public bool Apilar(Tipo prmItem)
         {
-            return InsertarPrimero(ref prmItem);
+            throw new NotImplementedException();
         }
 
         public bool Desapilar(ref Tipo prmItem)

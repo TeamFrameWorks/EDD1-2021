@@ -47,7 +47,7 @@ namespace Servicios.Colecciones.Tads
         /// <returns></returns>
         public int darCapacidad()
         {
-            return atrCapacidad;
+            throw new NotImplementedException();
         }
         #endregion
         #region Mutadores
@@ -64,8 +64,7 @@ namespace Servicios.Colecciones.Tads
         #region Inserciones
         protected override bool InsertarPrimero(ref Tipo prmItem)
         {
-            atrLongitud++;
-            return true;
+            throw new NotImplementedException();
         }
         protected override bool InsertarUltimo(ref Tipo prmItem)
         {
@@ -79,8 +78,7 @@ namespace Servicios.Colecciones.Tads
         #region Extractores
         protected override bool ExtraerPrimero(ref Tipo prmItem)
         {
-            atrLongitud++;
-            return true;
+            throw new NotImplementedException();
         }
         protected override bool ExtraerUltimo(ref Tipo prmItem)
         {
@@ -94,8 +92,7 @@ namespace Servicios.Colecciones.Tads
         #region Modificadores
         protected override bool ModificarPrimero(Tipo prmItem)
         {
-            atrLongitud++;
-            return true;
+            throw new NotImplementedException();
         }
         protected override bool ModificarUltimo(Tipo prmItem)
         {
@@ -109,8 +106,7 @@ namespace Servicios.Colecciones.Tads
         #region Recuperadoes
         protected override bool RecuperarPrimero(ref Tipo prmItem)
         {
-            atrLongitud++;
-            return true;
+            throw new NotImplementedException();
         }
         protected override bool RecuperarUltimo(ref Tipo prmItem)
         {

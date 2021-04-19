@@ -18,7 +18,7 @@ namespace Servicios.Colecciones.Enlazadas
 
         public bool Encolar(Tipo prmItem)
         {
-            return InsertarUltimo(ref prmItem);
+            throw new NotImplementedException();
         }
 
         public bool Revisar(ref Tipo prmItem)

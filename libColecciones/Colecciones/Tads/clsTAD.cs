@@ -26,7 +26,7 @@ namespace Servicios.Colecciones.Tads
         /// <returns></returns>
         public int darLongitud()
         {
-            return atrLongitud;
+            throw new NotImplementedException();
         }
         #endregion
         #region Consultores
@@ -39,8 +39,7 @@ namespace Servicios.Colecciones.Tads
         #region Inserciones
         protected virtual bool InsertarPrimero(ref Tipo prmItem) 
         {
-            atrLongitud++;
-            return true;
+            throw new NotImplementedException();
         }
         protected virtual bool InsertarUltimo(ref Tipo prmItem)
         {
@@ -61,8 +60,7 @@ namespace Servicios.Colecciones.Tads
         #region Extractores
         protected virtual bool ExtraerPrimero( ref Tipo prmItem)
         {
-            atrLongitud++;
-            return true;
+            throw new NotImplementedException();
         }
         protected virtual bool ExtraerUltimo( ref Tipo prmItem)
         {
@@ -83,8 +81,7 @@ namespace Servicios.Colecciones.Tads
         #region Modificadores
         protected virtual bool ModificarPrimero(Tipo prmItem)
         {
-            atrLongitud++;
-            return true;
+            throw new NotImplementedException();
         }
         protected virtual bool ModificarUltimo(Tipo prmItem)
         {
@@ -105,8 +102,7 @@ namespace Servicios.Colecciones.Tads
         #region Recuperadoes
         protected virtual bool RecuperarPrimero(ref Tipo prmItem)
         {
-            atrLongitud++;
-            return true;
+            throw new NotImplementedException();
         }
         protected virtual bool RecuperarUltimo(ref Tipo prmItem)
         {
